@@ -106,6 +106,11 @@ npm run dev
 
 <div align="center">
 
-Built with a focus on modern financial UI and practical investment analytics.
+### Built for modern portfolio tracking and investment analytics
+
+**Naman Jha**
+**Founding - OBLIQ.io | IIT Madras | University of Cambridge JBS | NIT Trichy**
+
+**Linkedin** : [https://www.linkedin.com/in/naman-iitm/]
 
 </div>
