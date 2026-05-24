@@ -1,54 +1,111 @@
-# 🌱 Seed – Smart Trading & Portfolio Tracker
+<div align="center">
 
-> A modern web-based trading simulation and portfolio analytics platform designed to help users track, analyze, and optimize their investments in real-time.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0B1220,100:1E293B&text=SEED&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Smart%20Trading%20%26%20Portfolio%20Tracker&descAlignY=62"/>
 
----
+<br/>
 
-## 📌 Overview
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&duration=2500&pause=1000&color=22C55E&center=true&vCenter=true&width=800&lines=Real-Time+Market+Intelligence;Portfolio+Analytics+Dashboard;Track+%E2%80%A2+Analyze+%E2%80%A2+Optimize"/>
 
-**Seed** is a powerful and intuitive trading platform that enables users to monitor stock prices, manage portfolios, and analyze investment performance. Built with a focus on clean UI, real-time data, and actionable insights, Seed bridges the gap between beginner investors and data-driven decision making.
+<br/>
 
----
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
 
-## ⚡ Key Features
-
-- 📈 **Real-Time Stock Tracking**  
-  Fetch and display live stock prices using external APIs  
-
-- ⭐ **Watchlist Management**  
-  Add, remove, and track favorite stocks  
-
-- 💼 **Portfolio Management**  
-  Simulate investments and manage assets efficiently  
-
-- 💰 **Profit/Loss Tracking**  
-  Automatic calculation of gains and losses  
-
-- 📊 **Interactive Data Visualization**  
-  Graphs and charts for performance analysis  
-
-- 📱 **Responsive Design**  
-  Works seamlessly across devices  
+</div>
 
 ---
 
-## 🧠 Advanced Capabilities (Planned / In Progress)
+# Market Overview
 
-- 📉 Portfolio Optimization using Modern Portfolio Theory (MPT)  
-- 🔔 Smart Alerts for price changes  
-- 🌙 Dark Mode UI  
-- 🔐 User Authentication System  
+SEED is a modern trading simulation and portfolio analytics platform designed to provide a realistic financial dashboard experience.
 
----
+It combines:
 
-## 🛠️ Tech Stack
-
-- **Frontend:** React, JavaScript, HTML, CSS  
-- **Backend:** Node.js, Express.js (optional)  
-- **Database:** Firebase / MongoDB  
-- **Visualization:** Chart.js  
-- **APIs:** REST APIs for real-time stock data  
+- Real-time market monitoring
+- Portfolio management
+- Profit/Loss tracking
+- Watchlist management
+- Interactive charts
+- Portfolio insights
+- Performance analytics
 
 ---
 
-## 📂 Project Structure
+# Dashboard Preview
+
+## Landing Page
+
+<img width="100%" src="./assets/landing-preview.png"/>
+
+---
+
+## Portfolio Dashboard
+
+<img width="100%" src="./assets/dashboard-preview.png"/>
+
+---
+
+## Analytics
+
+<img width="100%" src="./assets/analytics-preview.png"/>
+
+---
+
+# Features
+
+### Market Intelligence
+
+- Live stock monitoring
+- Market overview
+- Trending stocks
+- Watchlist tracking
+
+### Portfolio Analytics
+
+- Portfolio allocation
+- Profit/Loss tracking
+- Growth metrics
+- Performance insights
+
+### Visualization
+
+- Interactive charts
+- Portfolio performance graphs
+- Allocation donut charts
+- Historical trend analysis
+
+---
+
+# Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Frontend | React + TypeScript |
+| Styling | Tailwind CSS |
+| Charts | Chart.js |
+| Build Tool | Vite |
+| Storage | LocalStorage |
+
+---
+
+# Project Setup
+
+```bash
+git clone https://github.com/Naman-iitm/Seed-Smart-Trading-Portfolio-Tracking-Platform-.git
+
+cd Seed-Smart-Trading-Portfolio-Tracking-Platform-
+
+npm install
+
+npm run dev
+```
+
+---
+
+<div align="center">
+
+Built with a focus on modern financial UI and practical investment analytics.
+
+</div>
