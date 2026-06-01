@@ -9,10 +9,18 @@ export function SiteHeader() {
           <Logo />
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-muted-foreground md:flex">
-          <a href="#features" className="hover:text-foreground">Features</a>
-          <a href="#analytics" className="hover:text-foreground">Analytics</a>
-          <a href="#portfolio" className="hover:text-foreground">Portfolio</a>
-          <a href="#pricing" className="hover:text-foreground">Pricing</a>
+          <a href="#features" className="hover:text-foreground">
+            Features
+          </a>
+          <a href="#analytics" className="hover:text-foreground">
+            Analytics
+          </a>
+          <a href="#portfolio" className="hover:text-foreground">
+            Portfolio
+          </a>
+          <a href="#pricing" className="hover:text-foreground">
+            Pricing
+          </a>
         </nav>
         <div className="flex items-center gap-2">
           <Link

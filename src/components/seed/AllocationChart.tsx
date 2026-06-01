@@ -14,7 +14,13 @@ const PALETTE = [
   "oklch(0.7 0.05 240)",
 ];
 
-export function AllocationChart({ slices, height = 220 }: { slices: Slice[]; height?: number }) {
+export function AllocationChart({
+  slices,
+  height = 220,
+}: {
+  slices: Slice[];
+  height?: number;
+}) {
   const data = {
     labels: slices.map((s) => s.label),
     datasets: [

@@ -37,13 +37,13 @@
 :root {
   --radius: 0.5rem;
   /* Neutral fintech palette */
-  --background: oklch(0.975 0.003 240);          /* #F5F6F8 */
-  --foreground: oklch(0.22 0.01 240);            /* near-black */
+  --background: oklch(0.975 0.003 240); /* #F5F6F8 */
+  --foreground: oklch(0.22 0.01 240); /* near-black */
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.22 0.01 240);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.22 0.01 240);
-  --primary: oklch(0.42 0.09 160);               /* muted dark green */
+  --primary: oklch(0.42 0.09 160); /* muted dark green */
   --primary-foreground: oklch(0.99 0 0);
   --secondary: oklch(0.955 0.005 240);
   --secondary-foreground: oklch(0.3 0.01 240);
@@ -51,9 +51,9 @@
   --muted-foreground: oklch(0.5 0.01 240);
   --accent: oklch(0.95 0.012 220);
   --accent-foreground: oklch(0.3 0.01 240);
-  --destructive: oklch(0.55 0.18 27);            /* loss red */
+  --destructive: oklch(0.55 0.18 27); /* loss red */
   --destructive-foreground: oklch(0.99 0 0);
-  --success: oklch(0.55 0.12 160);               /* gain green */
+  --success: oklch(0.55 0.12 160); /* gain green */
   --success-foreground: oklch(0.99 0 0);
   --warning: oklch(0.7 0.13 75);
   --border: oklch(0.91 0.005 240);
@@ -90,7 +90,8 @@
   * {
     border-color: var(--color-border);
   }
-  html, body {
+  html,
+  body {
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);

@@ -16,10 +16,20 @@ export function EquityChart({ labels, values, height = 240 }: Props) {
       {
         data: values,
         borderColor: "oklch(0.42 0.09 160)",
-        backgroundColor: (ctx: { chart: { ctx: CanvasRenderingContext2D; chartArea?: { top: number; bottom: number } } }) => {
+        backgroundColor: (ctx: {
+          chart: {
+            ctx: CanvasRenderingContext2D;
+            chartArea?: { top: number; bottom: number };
+          };
+        }) => {
           const { ctx: c, chartArea } = ctx.chart;
           if (!chartArea) return "rgba(60,130,90,0.08)";
-          const g = c.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
+          const g = c.createLinearGradient(
+            0,
+            chartArea.top,
+            0,
+            chartArea.bottom,
+          );
           g.addColorStop(0, "rgba(60,130,90,0.18)");
           g.addColorStop(1, "rgba(60,130,90,0.00)");
           return g;
@@ -59,7 +69,8 @@ export function EquityChart({ labels, values, height = 240 }: Props) {
         ticks: {
           color: "#6b7280",
           font: { size: 11 },
-          callback: (v: string | number) => `$${Number(v).toLocaleString("en-US")}`,
+          callback: (v: string | number) =>
+            `$${Number(v).toLocaleString("en-US")}`,
         },
       },
     },

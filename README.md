@@ -80,13 +80,13 @@ It combines:
 
 # Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| Frontend | React + TypeScript |
-| Styling | Tailwind CSS |
-| Charts | Chart.js |
-| Build Tool | Vite |
-| Storage | LocalStorage |
+| Category   | Technology         |
+| ---------- | ------------------ |
+| Frontend   | React + TypeScript |
+| Styling    | Tailwind CSS       |
+| Charts     | Chart.js           |
+| Build Tool | Vite               |
+| Storage    | LocalStorage       |
 
 ---
 
