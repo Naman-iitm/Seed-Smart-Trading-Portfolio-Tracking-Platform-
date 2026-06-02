@@ -23,7 +23,7 @@ export function ensureChartsRegistered() {
     ArcElement,
     Tooltip,
     Filler,
-    Legend
+    Legend,
   );
   registered = true;
 }
