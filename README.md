@@ -114,3 +114,37 @@ npm run dev
 **Linkedin** : [https://www.linkedin.com/in/naman-iitm/]
 
 </div>
+
+
+---
+
+## 🚀 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+This project can be managed using either **npm** or **Bun**. Ensure you have Node.js or Bun installed on your system.
+
+* **Node.js**: `v18+` recommended
+* **Bun**: `v1.0+` recommended
+
+### 💻 Installation & Local Development
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Vaanshimadaan/AgroDex.git](https://github.com/Vaanshimadaan/AgroDex.git)
+   cd AgroDex
+
+   ├── backend/               # Backend application logic and APIs
+├── e2e/                   # End-to-end testing configurations (Playwright)
+├── public/                # Static assets like images, icons, and fonts
+├── src/                   # Main frontend application source code
+│   ├── assets/            # Project-specific local assets (styles, global images)
+│   ├── components/        # Reusable UI components (including shadcn/ui components)
+│   ├── context(s)/        # React Context providers for global state management
+│   ├── hooks/             # Custom React hooks
+│   └── pages/             # Page components mapping to application routes
+├── bunfig.toml            # Configuration file for Bun package manager
+├── components.json        # Shadcn UI configuration file
+└── eslint.config.js       # ESLint configurations for code quality and linting
