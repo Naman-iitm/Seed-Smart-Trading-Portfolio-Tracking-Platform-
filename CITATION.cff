@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use SEED in your research, project, publication, presentation, or educational work, please cite this repository."
+type: software
+
+title: "SEED — Smart Trading & Portfolio Analytics Platform"
+
+version: "0.1.0"
+date-released: "2026-08-18"
+
+abstract: >
+  SEED is a trading simulation and portfolio analytics platform designed
+  to provide a modern financial dashboard experience for portfolio
+  tracking, watchlist management, profit and loss analysis, portfolio
+  allocation, interactive visualization, and educational investment
+  analytics.
+
+authors:
+  - family-names: "Jha"
+    given-names: "Naman"
+    affiliation: "IIT Madras"
+    orcid: ""
+
+repository-code: "https://github.com/Naman-iitm/Seed-Smart-Trading-Portfolio-Tracking-Platform-"
+license: "MIT"
+
+keywords:
+  - trading simulation
+  - portfolio analytics
+  - portfolio tracking
+  - financial dashboard
+  - investment analytics
+  - watchlist
+  - React
+  - TypeScript
+  - data visualization
+
+references:
+  - type: software
+    title: "React"
+    authors:
+      - family-names: "Meta Open Source"
+        given-names: ""
+    website: "https://react.dev/"
+
+  - type: software
+    title: "Vite"
+    authors:
+      - family-names: "Vite"
+        given-names: ""
+    website: "https://vite.dev/"
+
+  - type: software
+    title: "Chart.js"
+    authors:
+      - family-names: "Chart.js Contributors"
+        given-names: ""
+    website: "https://www.chartjs.org/"
+
+  - type: software
+    title: "Tailwind CSS"
+    authors:
+      - family-names: "Tailwind Labs"
+        given-names: ""
+    website: "https://tailwindcss.com/"
