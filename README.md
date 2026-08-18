@@ -114,3 +114,20 @@ npm run dev
 **Linkedin** : [https://www.linkedin.com/in/naman-iitm/]
 
 </div>
+
+## Citation
+
+If you use SEED in your research, academic work, educational project,
+presentation, or other published work, please cite the repository.
+
+### BibTeX
+
+```bibtex
+@software{jha2026seed,
+  author  = {Jha, Naman},
+  title   = {SEED: Smart Trading & Portfolio Analytics Platform},
+  year    = {2026},
+  version = {0.1.0},
+  url     = {https://github.com/Naman-iitm/Seed-Smart-Trading-Portfolio-Tracking-Platform-},
+  license = {MIT}
+}
